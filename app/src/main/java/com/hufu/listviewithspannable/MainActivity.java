@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle(R.string.title);
+        //noinspection deprecation
         toolbar.setTitleTextColor(getResources().getColor(R.color.pink));
         setSupportActionBar(toolbar);
 
